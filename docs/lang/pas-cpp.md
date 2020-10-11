@@ -49,34 +49,6 @@ INFO: 恭喜你找到了隐藏彩蛋！
 -  [Dev-C++](../tools/editor/devcpp.md) 
 -  [Code::Blocks](https://sourceforge.net/projects/codeblocks/) 
 -  [VS Code](../tools/editor/vscode.md) 
-
-### 方式二：使用 代码编辑器 + 编译器 + 调试器
-
-如果愿意折腾就去配吧，此处略，需要注意配置环境变量。
-
-## C++ 语法快速提要 Start Here
-
-C++ 程序都是从 `main` 这个部分开始运行的。
-
-大括号表示块语句的开始与结束： `{` 就相当于 Pascal 里面的 `begin` ，而 `}` 就相当于 `end` 。
-
-注意，和 Pascal 一样，C++ 每句话结束要加分号 `;` ，不过大括号结尾不需要有分号，而且程序结束末尾不用打句号 `.` 。
-
- `//` 表示行内注释， `/* */` 表示块注释。
-
-按照惯例，看看 Hello World 吧。
-
-### Hello World：第一个 C++ 程序
-
-```cpp
-#include <iostream>  // 导入 iostream 库
-
-int main()  // main 部分
-{
-  std::cout << "Hello World!" << std::endl;
-
-  return 0;
-}
 ```
 
 然后编译运行一下，看看结果。
@@ -332,7 +304,7 @@ for (int i = 1; i <= 10; i++) {
 
 ####  `repeat until` 与 `do while` 循环
 
-注意， `repeat unitl` 与 `do while` 是不同的，请对比以下代码
+注意， `repeat until` 与 `do while` 是不同的，请对比以下代码
 
 ```pas
 var i: integer;
